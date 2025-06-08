@@ -1,0 +1,21 @@
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl # This one is debatable, see explanation below
+
+# Crash log files
+crash.log
+
+# Terraform Cloud / Enterprise files
+.terraformrc
+terraform.rc
+
+# Sensitive variable definitions
+# It's generally best practice to keep terraform.tfvars out of version control
+# if it contains sensitive data or environment-specific values.
+# If your tfvars contains ONLY non-sensitive, shared defaults, you *might* commit it.
+# However, for labs or personal projects, you might commit it for convenience.
+# For production, definitely ignore.
+# If you commit it, remove the '#' from the line below.
+# terraform.tfvars
